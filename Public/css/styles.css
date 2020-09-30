@@ -3,5 +3,16 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-service div{
+    padding: 0;
+    background-color: ivory;
+}
+
+.footer{
+    background-color: #f8f9fa;
 }
