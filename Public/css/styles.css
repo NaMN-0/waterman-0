@@ -18,5 +18,11 @@ body {
 }
 
 .contact {
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+.tag {
     margin-top: 30px
 }
