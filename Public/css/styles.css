@@ -3,16 +3,31 @@ html {
 }
 
 body {
-    background-color: grey;
+    background-color: white;
     margin: 0px;
     padding: 0px;
 }
 
-.top-service div{
+.top-service div {
     padding: 0;
     background-color: ivory;
 }
 
-.footer{
+.about .card{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaNPqWh6CAQagaWoQo4Up6c5sojinJyYNCDA&usqp=CAU');
+    height: 50vh;
+}
+
+.footer {
     background-color: #f8f9fa;
+}
+
+.contact {
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+.tag {
+    margin-top: 30px
 }
