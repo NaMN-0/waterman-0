@@ -8,6 +8,11 @@ body {
     padding: 0px;
 }
 
+.car-item{
+    height: 50vh;
+    background: grey;
+}
+
 .top-service div {
     padding: 0;
 }
