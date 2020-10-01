@@ -10,11 +10,9 @@ body {
 
 .top-service div {
     padding: 0;
-    background-color: ivory;
 }
 
 .about .card{
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaNPqWh6CAQagaWoQo4Up6c5sojinJyYNCDA&usqp=CAU');
     height: 50vh;
 }
 
