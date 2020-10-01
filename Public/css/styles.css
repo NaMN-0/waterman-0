@@ -26,3 +26,13 @@ body {
 .tag {
     margin-top: 30px
 }
+
+.services {
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+.form {
+    padding: 30px
+}
