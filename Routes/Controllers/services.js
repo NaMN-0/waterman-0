@@ -10,7 +10,10 @@ router.get("/", function(req, res) {
 router.post("/", function(req, res) {
     console.log("post request correct")
     console.log(req.body)
-    res.redirect("/")
+    res.render("services", {
+        layout: false,
+        msg: "Form submitted"
+    });
 });
 
 module.exports = router;
