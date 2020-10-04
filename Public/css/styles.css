@@ -28,6 +28,10 @@ body {
     color: white;
 }
 
+.img1{
+    height: 60%;
+}
+
 .top-service div {
     padding: 0;
 }
