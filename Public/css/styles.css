@@ -9,9 +9,21 @@ body {
     animation: back 10s infinite;
 }
 
+.car-item1{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg1.jpg);
+}
+.car-item2{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg2.webp);
+}
+.car-item3{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg3.jpg);
+}
+
 .car-item {
     height: 50vh;
-    background: grey;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 .top-service div {

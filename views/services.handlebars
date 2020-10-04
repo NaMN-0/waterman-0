@@ -34,27 +34,9 @@
         </div>
     </nav>
 
-<<<<<<< HEAD
-    <div>
-        <div class="text-center my-5">
-            <h1>Our Services</h1>
-=======
     {{msg}}
 
     <div class="top-service row container p-0 m-0">
-        <div class="col-lg-3 col-sm-12 px-3 py-3">
-            <div class="card px-4 py-3">
-                <div class="card-body">
-                    <h5 class="card-title">Service 1</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1">
-                        Launch demo modal
-                      </button>
-                </div>
-            </div>
->>>>>>> 2d5459411731a758c64fe0c98109024347dbf6ef
-        </div>
         <div class="top-service row container p-0 m-0">
             <div class="col-lg-3 col-sm-12 px-3 py-3">
                 <div class="card px-4 py-3">
@@ -351,49 +333,22 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-    <div class="services my-5">
-        <div class="text-center my-5">
-            <h1>Form</h1>
-        </div>
-        <form class="form">
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email Address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Contact Number</label>
-                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Service Type</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                <option>Service 1</option>
-                <option>Service 2</option>
-                <option>Service 3</option>
-                <option>Service 4</option>
-                <option>Service 5</option>
-                <option>Service 6</option>
-                <option>Service 7</option>
-                <option>Service 8</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Description (Optional)</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-=======
     <div class="service">
         <form class="form" method="post" action="/services">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" name="name"/>
+            </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email"/>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
+                <label for="exampleFormControlInput1">Contact Number</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number" name="number"/>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Service Type</label>
                 <select class="form-control" id="exampleFormControlSelect1" name="selectone">
                 <option>1</option>
                 <option>2</option>
@@ -403,19 +358,8 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2" name="selectmult">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <label for="exampleFormControlTextarea1">Desrcription</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
->>>>>>> 2d5459411731a758c64fe0c98109024347dbf6ef
             </div>
             <button type="submit" value="submit" class="btn btn-primary">Submit</button>
         </form>
