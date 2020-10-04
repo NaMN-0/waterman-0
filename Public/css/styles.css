@@ -9,14 +9,16 @@ body {
     animation: back 10s infinite;
 }
 
-.car-item1{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg1.jpg);
+.car-item1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpg);
 }
-.car-item2{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg2.webp);
+
+.car-item2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.webp);
 }
-.car-item3{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg3.jpg);
+
+.car-item3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg3.jpg);
 }
 
 .car-item {
@@ -62,7 +64,8 @@ body {
     animation: mymove 10s infinite;
 }
 
-@keyframes mymove {
+
+/* @keyframes mymove {
     0% {
         color: black;
     }
@@ -90,4 +93,4 @@ body {
     100% {
         background-color: white;
     }
-}
+} */

@@ -1,5 +1,5 @@
 const app = require("./Routes/index");
-//const db = require("./Models/Mongo/connect");
+const db = require("./Models/sql/connect");
 const dotenv = require("dotenv");
 
 dotenv.config();
@@ -7,5 +7,5 @@ dotenv.config();
 const PORT = process.env.PORT || 5040;
 
 app.listen(PORT, () => {
-  console.log("running on " + PORT);
+    console.log("running on " + PORT);
 });

@@ -34,7 +34,11 @@
         </div>
     </nav>
 
-    {{msg}}
+    <div class="row">
+        <div class="col-12 px-5">
+            {{msg}}
+        </div>
+    </div>
 
     <div class="top-service row container p-0 m-0">
         <div class="top-service row container p-0 m-0">
@@ -345,11 +349,11 @@
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Contact Number</label>
-                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number" name="number"/>
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number" name="contact"/>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Service Type</label>
-                <select class="form-control" id="exampleFormControlSelect1" name="selectone">
+                <select class="form-control" id="exampleFormControlSelect1" name="service">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -359,7 +363,7 @@
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Desrcription</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="description"></textarea>
             </div>
             <button type="submit" value="submit" class="btn btn-primary">Submit</button>
         </form>

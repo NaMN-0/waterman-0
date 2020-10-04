@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contact</title>
+</head>
+
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Water Man</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    {{#if status}}
+    <div class="jumbotron">
+        <form class="form" method="post" action="admin">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Username</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username" name="username" />
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password" name="password" />
+            </div>
+            <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    {{else}}
+    <div class="row">
+        {{#each data}}
+        <div class="col-12 jumbotron">
+            <p> Name : {{this.name}}</p>
+            <p>Email : {{this.email}}</p>
+            <p>Contact : {{this.contact}}</p>
+            <p>Service : {{this.service}}</p>
+            <p>Descrpition : {{this.description}}</p>
+        </div>
+        <hr/> {{/each}}
+    </div>
+    {{/if}}
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+
+</html>
