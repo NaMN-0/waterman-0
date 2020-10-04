@@ -52,7 +52,7 @@ body {
 
 @keyframes mymove {
     0% {
-        color: grey;
+        color: black;
     }
     25% {
         color: white;
@@ -61,7 +61,7 @@ body {
         color: white;
     }
     100% {
-        color: grey;
+        color: black;
     }
 }
 
@@ -70,10 +70,10 @@ body {
         background-color: white;
     }
     25% {
-        background-color: grey;
+        background-color: lightgrey;
     }
     50% {
-        background-color: grey;
+        background-color: lightgrey;
     }
     100% {
         background-color: white;
