@@ -54,6 +54,10 @@ body{
     height: 50vh;
 }
 
+.expert img{
+    height: 25vh;
+}
+
 footer{
     background-color: #f8f9fa;
 }
