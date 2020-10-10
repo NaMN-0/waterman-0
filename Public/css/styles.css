@@ -1,12 +1,26 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html{
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #f8f9fa;
+body{
+    background-color: #bccbdb;
     margin: 0px;
     padding: 0px;
     animation: back 10s infinite;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
+}
+
+.home-page{
+    background-color: #f8f9fa;
 }
 
 .car-item1 {
@@ -40,7 +54,7 @@ body {
     height: 50vh;
 }
 
-.footer {
+footer{
     background-color: #f8f9fa;
 }
 
